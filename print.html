@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutritionist Marwa Bassem</title>
+    <link href="assets/css/style.bundle.css" rel='stylesheet'>
+    <style>
+        @media print {
+
+            /* Ensure each card is on a separate page */
+            .card+.card {
+                page-break-before: always;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card mb-5 mb-xl-10 mt-5">
+            <div class="card-header cursor-pointer">
+                <div class="card-title m-0 d-flex flex-column mt-5">
+                    <h3 class="fw-bolder m-0">Nutritionist/ Marwa Bassem</h3>
+                    <p>+20 101 692 9629</p>
+                </div>
+                <div>
+                    <img src="assets/media/logo-3.png" class="w-150px" alt="" srcset="">
+                </div>
+            </div>
+            <div class="card-body p-9 row">
+                <div class="col-12 mb-7">
+                    <label class="col-lg-4 fw-bold text-muted">Full Name:</label>
+                    <div class="col-lg-8">
+                        <span class="fw-bolder fs-6 text-gray-800" id="name"></span>
+                    </div>
+                </div>
+
+                <div class="col-6 mb-7">
+                    <label class="col-lg-4 fw-bold text-muted">Contact Phone:
+                    </label>
+                    <div class="col-lg-8 d-flex align-items-center">
+                        <span class="fw-bolder fs-6 text-gray-800 me-2" id="phone"></span>
+                    </div>
+                </div>
+                <div class="col-6 mb-7">
+                    <label class="col-lg-4 fw-bold text-muted">Age:</label>
+                    <div class="col-lg-8 fv-row">
+                        <span class="fw-bold text-gray-800 fs-6" id="age"></span>
+                    </div>
+                </div>
+                <div class="col-6 mb-7">
+                    <label class="col-lg-4 fw-bold text-muted">Height:</label>
+                    <div class="col-lg-8">
+                        <span class="fw-bold fs-6 text-gray-800 text-hover-primary" id="height">
+                        </span>
+                    </div>
+                </div>
+                <div class="col-6 mb-7">
+                    <label class="col-lg-4 fw-bold text-muted">Weight:</label>
+                    <div class="col-lg-8">
+                        <span class="fw-bold fs-6 text-gray-800 text-hover-primary" id="weight">
+                        </span>
+                    </div>
+                </div>
+                <div class="col-6 mb-7">
+                    <label class="col-lg-4 fw-bold text-muted">BMI:</label>
+                    <div class="col-lg-8">
+                        <span class="fw-bold fs-6 text-gray-800 text-hover-primary" id="BMI">
+                        </span>
+                    </div>
+                </div>
+                <div class="col-6 mb-7">
+                    <label class="col-lg-4 fw-bold text-muted">Perfect Weight:</label>
+                    <div class="col-lg-8">
+                        <span class="fw-bold fs-6 text-gray-800 text-hover-primary" id="perfect_weight">
+                        </span>
+                    </div>
+                </div>
+                <div class="row mb-7">
+                    <label class="col-lg-4 fw-bold text-muted">The Goal To Achieve:</label>
+                    <div class="col-lg-8">
+                        <span class="fw-bold fs-6 text-gray-800 text-hover-primary" id="achieve_the_goal">
+                        </span>
+                    </div>
+                </div>
+
+                <div class="row mb-7">
+                    <label class="col-lg-4 fw-bold text-muted">System Goals:</label>
+                    <div class="col-lg-8">
+                        <span class="fw-bold fs-6 text-gray-800 text-hover-primary" id="system_goals">
+                        </span>
+                    </div>
+                </div>
+                <div class="row mb-7">
+                    <label class="col-lg-4 fw-bold text-muted">Main Information:</label>
+                    <div class="col-lg-8">
+                        <span class="fw-bold fs-6 text-gray-800 text-hover-primary" id="main_information">
+                        </span>
+                    </div>
+                </div>
+
+                <!-- <div class="notice d-flex bg-light-warning rounded border-warning border border-dashed p-6">
+                    <span class="svg-icon svg-icon-2tx svg-icon-warning me-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <rect opacity="0.3" x="2" y="2" width="20" height="20" rx="10" fill="black"></rect>
+                            <rect x="11" y="14" width="7" height="2" rx="1" transform="rotate(-90 11 14)" fill="black">
+                            </rect>
+                            <rect x="11" y="17" width="2" height="2" rx="1" transform="rotate(-90 11 17)" fill="black">
+                            </rect>
+                        </svg>
+                    </span>
+                    <div class="d-flex flex-stack flex-grow-1">
+                        <div class="fw-bold">
+                            <h4 class="text-gray-900 fw-bolder">We need your attention!</h4>
+                            <div class="fs-6 text-gray-700">Your payment was declined. To start using tools, please
+                                <a class="fw-bolder" href="../../demo1/dist/account/billing.html">Add Payment
+                                    Method</a>.
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="card card-flush mb-5 mt-15">
+            <div class="card-header pt-7">
+                <h3 class="card-title align-items-start flex-column">
+                    <span class="card-label fw-bolder text-dark">Meals</span>
+                </h3>
+            </div>
+            <div class="card-body">
+                <div class="no-footer">
+                    <div class="table-responsive">
+                        <table class="table align-middle table-row-dashed fs-6 gy-3 " id="">
+                            <thead>
+                                <tr class="text-start text-gray-400 fw-bolder fs-7 text-uppercase gs-0">
+                                    <th class="min-w-100px ">Meal</th>
+                                    <th class="pe-3 min-w-100px">Meal Ingredients</th>
+                                    <th class="pe-3 min-w-150px sorting">Notes</th>
+                                </tr>
+                            </thead>
+                            <tbody class="fw-bolder text-gray-600" id="TableBody">
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    // Retrieve the data from localStorage
+    var storedData = localStorage.getItem('formData');
+    // Parse the JSON data
+    var myData = JSON.parse(storedData);
+    loadData(myData);
+
+    function loadData(data) {
+        console.log(data);
+        $('#name').text(data.name)
+        $('#age').text(data.age)
+        $('#phone').text(data.phone)
+        $('#height').text(data.height)
+        $('#weight').text(data.weight)
+        $('#BMI').text(data.BMI)
+        $('#perfect_weight').text(data.perfect_weight)
+        $('#achieve_the_goal').text(data.achieve_the_goal)
+        $('#main_information').text(data.main_information)
+        $('#system_goals').text(data.system_goals);
+        var tableBody = document.getElementById("TableBody");
+
+        // Loop through the data array and create table rows
+        data.meals.forEach(function (item) {
+            var row = document.createElement("tr");
+
+            var mealCell = document.createElement("td");
+            mealCell.textContent = item.meal;
+            row.appendChild(mealCell);
+
+            var ingredientsCell = document.createElement("td");
+            ingredientsCell.textContent = item.ingredients;
+            row.appendChild(ingredientsCell);
+
+            var notesCell = document.createElement("td");
+            notesCell.textContent = item.notes;
+            row.appendChild(notesCell);
+
+            tableBody.appendChild(row);
+        });
+        window.print()
+`
+    }
+</script>
+
+</html>
